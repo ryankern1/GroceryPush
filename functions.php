@@ -2,8 +2,8 @@
 
 function connect() {
 	$host = 'localhost';
-	$user = 'fdondjeutschoufack1';
-	$pwd = 'fdondjeutschoufack1';
+	$user = 'rkern3';
+	$pwd = 'rkern3';
 	$dbname = 'GroceryDB';
 	$conn=@mysqli_connect($host,$user,$pwd,$dbname);
 	return $conn;
